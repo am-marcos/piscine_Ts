@@ -25,10 +25,10 @@ function afficherPersonneAvancee(pers: Personne) {
 const personne2: Personne = { id: 1, nom: "Alice", age: 25, adresse: { rue: "123 Rue Principale", ville: "Paris" } };
 
 // Appel de la fonction afficherPersonneAvancee avec personne1
-afficherPersonneAvancee(personne1);
+afficherPersonneAvancee(personne2);
 
 // Création de l'objet personne2 sans adresse
 const personne3: Personne = { id: 2, nom: "Bob", age: 30 };
 
 // Appel de la fonction afficherPersonneAvancee avec personne2
-afficherPersonneAvancee(personne2);
+afficherPersonneAvancee(personne3);
